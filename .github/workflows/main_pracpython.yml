@@ -7,7 +7,6 @@ on:
   push:
     branches:
       - main
-  workflow_dispatch:
 
 jobs:
   build-and-deploy:
@@ -32,4 +31,4 @@ jobs:
       with:
         app-name: 'pracpython'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_224b6484678a49f3a0be988b271d1b09 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_0fdd743882984095814222aa544556d0 }}
